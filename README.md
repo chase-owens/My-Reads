@@ -17,7 +17,8 @@ But this this project was built from scratch, bootstrapped with [Create React Ap
 ```
 node -v
 ```
-  2a. If Node isn't installed, download it (here)[https://nodejs.org/en/]
+  2a. If Node isn't installed, download it [here](https://nodejs.org/en/).
+  
 3. If Node is installed, then open the terminal and navigate to the cloned/downloaded directory and enter
 ```
 npm start
