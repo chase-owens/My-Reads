@@ -1,6 +1,8 @@
 # My Reads
 
-## My Reads is a digital bookshelf built with React.
+---
+
+My Reads is a digital bookshelf built with React.
 
 ## Project Overview
 
