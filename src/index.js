@@ -4,14 +4,14 @@ import "./index.css";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Router } from "react-router";
+import { HashRouter } from "react-router-dom";
 import createHashHistory from "history/createHashHistory";
 
 const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 ReactDOM.render(
-  <Router history={hashHistory}>
+  <HashRouter history={hashHistory}>
     <App />
-  </Router>,
+  </HashRouter>,
   document.getElementById("root")
 );
 registerServiceWorker();
